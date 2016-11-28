@@ -15,10 +15,9 @@ for (i = 0; i < n-1; i++)
 for (i = 0 ; i < n; i++)
     printf("%d ",a[i]);
 }
-int swap(int *x,int *y)
+void swap(int *x,int *y)
 {
     *x=*x+*y;
     *y=*x-*y;
     *x=*x-*y;
-    return(y,x);
 }
